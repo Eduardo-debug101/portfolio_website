@@ -1,7 +1,18 @@
 body {
-    background-color: cornflowerblue
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
 }
 
 .intro {
     text-align: center;
+    /* Padding top to bottom then left and right: 1rem = 16px*/
+    padding: 3rem 1rem;
+}
+
+/* For profile pic */
+.intro img {
+    /* Makes edges rounded */
+    border-radius: 8px; 
 }
